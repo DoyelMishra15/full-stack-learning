@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS Selectors</title>
+
+        <style>
+
+            /* Element selector */
+            h1 {
+                color: blue;
+            }
+
+            /* Multiple element selector */
+            h2, h3 {
+                color: green;
+            }
+
+            /* ID selector */
+            #unique {
+                color: red;
+            }
+
+            /* Class selector */
+            .special {
+                font-weight: bold;
+            }
+
+            /* Descendant selector */
+            #container p {
+                color: purple;
+            }
+
+            /* Child selector */
+            #container > p {
+                font-size: 20px;
+            }
+
+            /* Attribute selector */
+            a[href="https://google.com"] {
+                color: orange;
+            }
+
+            /* Pseudo-class selector */
+            a:hover {
+                color: red;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <h1>Element Selector</h1>
+
+        <h2>Multiple Element Selector</h2>
+        <h3>Multiple Element Selector</h3>
+
+        <p id="unique">ID Selector</p>
+
+        <p class="special">Class Selector</p>
+
+        <div id="container">
+
+            <p>Direct child of container</p>
+
+            <div>
+                <p>Descendant of container</p>
+            </div>
+
+        </div>
+
+        <br>
+
+        <a href="https://google.com">Google</a>
+
+        <br><br>
+
+        <a href="https://example.com">Example</a>
+
+    </body>
+</html>
