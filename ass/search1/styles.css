@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.links {
+    text-align: right;
+    margin: 20px;
+}
+
+.links a {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.search-container {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.search-box {
+    width: 500px;
+    height: 35px;
+    border: 1px solid #d9d9d9;
+    border-radius: 20px;
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons input {
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    margin: 40px;
+}
+
+.advanced-form {
+    margin: 40px;
+    width: 700px;
+}
+
+.advanced-form label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.advanced-form input[type="text"] {
+    width: 500px;
+    height: 25px;
+}
+
+.advanced-button {
+    display: block;
+    margin-top: 30px;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
