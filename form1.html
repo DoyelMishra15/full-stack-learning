@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Complete Form</title>
+    </head>
+
+    <body>
+
+        <h1>Registration Form</h1>
+
+        <form>
+
+            <!-- Text input -->
+            <label for="name">Full Name:</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Full Name"
+            >
+
+            <br><br>
+
+            <!-- Password input -->
+            <label for="password">Password:</label>
+            <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Password"
+            >
+
+            <br><br>
+
+            <!-- Radio buttons -->
+            <p>Year:</p>
+
+            <input type="radio" name="year" value="1">
+            First Year
+
+            <input type="radio" name="year" value="2">
+            Second Year
+
+            <input type="radio" name="year" value="3">
+            Third Year
+
+            <input type="radio" name="year" value="4">
+            Fourth Year
+
+            <br><br>
+
+            <!-- Datalist -->
+            <label for="course">Course:</label>
+
+            <input
+                list="courses"
+                id="course"
+                name="course"
+                placeholder="Choose a course"
+            >
+
+            <datalist id="courses">
+                <option value="Computer Science">
+                <option value="Artificial Intelligence">
+                <option value="Data Science">
+                <option value="Information Technology">
+                <option value="Electronics">
+            </datalist>
+
+            <br><br>
+
+            <!-- Submit button -->
+            <input type="submit">
+
+        </form>
+
+    </body>
+</html>
